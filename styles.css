@@ -2,7 +2,10 @@
     font-family: 'Myriad';
     src: url('../Examen_HTML_AguilarSantiago/fonts/MyriadPro-Light.otf');
 }
-
+@font-face {
+    font-family: 'Myriad Regular';
+    src: url('../Examen_HTML_AguilarSantiago/fonts/MYRIADPRO-REGULAR.OTF');
+}
 
 body{
     margin: 0;
@@ -77,6 +80,9 @@ body{
 .consultar__recuadro{
     background-color: white;
     border-radius: 20px;
+    width: 65%;
+    margin-left: 5%;
+    padding: 20px 10px;
 }
 
 .consultar__info button{
@@ -84,10 +90,25 @@ body{
     height: 10%;
 }
 
-.consultar__recuadro--labels{
-    padding: 20px;
-    width: 100%;
+.consultar__recuadro--titulo{
+    text-align: center;
 }
+
+.consultar__recuadro--labels{
+    padding: 30px 20px;
+    width: 100%;
+    gap: 10px;
+    font-family: 'Myriad';
+}
+
+.consultar__recuadro--labels input{
+    width: 90%;
+}
+
+.consultar__recuadro--labels label{
+    margin-top: 20px;
+}
+
 
 .consultar__info{
     display: flex;
@@ -98,7 +119,31 @@ body{
 }
 
 .consultar__info h1{
-    font-family: 'Myriad Titles';
+    font-family: 'Myriad';
     font-size: 60px;
+    align-self: center;
 }
 
+.consultar__info p{
+    font-family: 'Myriad';
+    font-size: 25px;
+    justify-content: center;
+}
+
+.consultar__boton{
+    align-self: center;
+    justify-self: center;
+}
+
+.consultar__boton button{
+    background-color: rgb(38, 98, 237);
+    font-family: 'Myriad';
+    color: white;
+    text-align: center;
+}
+
+.consultar__info button{
+    background-color: rgb(38, 98, 237);
+    font-family: 'Myriad';
+    color: white;
+}
