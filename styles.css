@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Myriad';
+    src: url('../Examen_HTML_AguilarSantiago/fonts/MyriadPro-Light.otf');
+}
+
+body{
+    margin: 0;
+}
+
+.tutto{
+    display: flex;
+    flex-direction: column;
+}
+
+.topbar{
+    display: flex;
+    gap: 100px;
+    align-self: center;
+    justify-content: center;
+    background-color: rgb(41, 98, 232);
+    position: fixed;
+    width: 100%;
+}
+
+.topbar a{
+    font-family: 'Myriad';
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.topbar__enlaces{
+    display: flex;
+    align-items: center;
+}
+
+.topbar__imagen{
+    display: flex;
+}
+
+.topbar__boton{
+    display: flex;
+    align-self: center;
+    height: 30%;
+}
+
+.topbar__boton button{
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+}
+
+.topbar__boton a{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.consultar__fondo{
+    background-image: url('../Examen_HTML_AguilarSantiago/img/Fondo.png');
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.consultar{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    width: 50%;
+}
+
+.consultar__recuadro{
+    background-color: white;
+}
+
+.consultar__info{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-self: center;
+    justify-self: center;
+}
+
+.consultar__info button{
+    width: 10%;
+    height: 10%;
+    
+}
