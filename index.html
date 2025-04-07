@@ -40,9 +40,37 @@
                         <p>Por favor ingresa tus datos personales para revisar el estado de entrega de tu ingreso</p>
                     </div>
                     <div class="consultar__recuadro--labels">
-                        <label>
-                            
-                        </label>
+                        <form action="">
+                            <label for="tipoDocumento">Tipo de Documento</label>
+                            <br>
+                            <select name="tipoDocumento" id="tipoDocumento">
+                                <option value="cc">Cédula Ciudadanía</option>
+                                <option value="ti">Tarjeta Identidad</option>
+                                <option value="pp">Pasaporte</option>
+                                <option value="ce">Cédula Extranjera</option>
+                            </select>
+                            <br>
+                            <label for="#Documento">Número Documento</label>
+                            <br>
+                            <input type="text">
+                            <br>
+                            <label for="primerNombre">primerNombre</label>
+                            <br>
+                            <input type="text">
+                            <br>
+                            <label for="primerApellido">Primer Apellido</label>
+                            <br>
+                            <input type="text">
+                            <br>
+                            <label for="fechaExpedicion">Fecha de expedición del documento</label>
+                            <br>
+                            <input type="date" id="fechaExpedicion" name="fechaExpedicion">
+                            <br>
+                            <label for="primerNombre">Teléfono Móvil</label>
+                            <br>
+                            <input type="text">
+                        </form>
+                        
                     </div>
                 </div>
             </div>

@@ -3,6 +3,7 @@
     src: url('../Examen_HTML_AguilarSantiago/fonts/MyriadPro-Light.otf');
 }
 
+
 body{
     margin: 0;
 }
@@ -75,6 +76,17 @@ body{
 
 .consultar__recuadro{
     background-color: white;
+    border-radius: 20px;
+}
+
+.consultar__info button{
+    width: 10%;
+    height: 10%;
+}
+
+.consultar__recuadro--labels{
+    padding: 20px;
+    width: 100%;
 }
 
 .consultar__info{
@@ -85,8 +97,8 @@ body{
     justify-self: center;
 }
 
-.consultar__info button{
-    width: 10%;
-    height: 10%;
-    
+.consultar__info h1{
+    font-family: 'Myriad Titles';
+    font-size: 60px;
 }
+
